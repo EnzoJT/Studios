@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+
+	<title>enzo</title>
+
+</head>
+<body>
+
+	<audio src="Chop_sui_-_Donny.mp3" controls="bouton">
+			</audio>
+
+	<div class="contain">
+		<div class="demi"><div class="grostitre">
+			<h1>WELL<br>COME.</h1>
+		</div></div>
+		<div id="ancre2" class="portfolio">
+
+			<h1 class="titreport">Portfolio</h1>
+
+			<div class="galerie">
+			<a href="mag1.html"><div id="photo1"class="image"><img  width="100%" alt=""></div></a>
+			<a href="img/Pulse_gaming_dossier_sponso.pdf" target="_blank"><div id="photo2"class="image"><img  alt=""></div></a>
+			<a href="modul.html"><div id="photo3"class="image"><img  alt=""></div></a>
+			<a href="mag2.html"><div id="photo4"class="image"><img  alt=""></div></a>
+			<a href="hare.html"><div id="photo5"class="image"><img  alt=""></div></a>
+			<a href="http://www.lejournalinternational.fr/author/Enzo-Janoir/" target="_blank"><div id="photo6"class="image"><img  alt=""></div></a>
+		</div>
+
+		</div>
+
+		<div class="about" id="ancre1">
+			<div class="rond"></div>
+			<div class="photo"></div>
+			<div class="pres">
+				<p>Je suis Étudiant, en digital âgé de 21 ans, je vais essayer à travers ce site de vous emmener dans mon environnement de travail. J'ai auparavant effectue des études dans le journalisme, cela m'a rapproché du digitale de par le journalisme web, le maquettisme et le design. J’apprécie la rédaction de contenu tout autant que la réflexion a apporté sur un projet en cours de réalisation d’où mon bachelor en charger de projet digital. Sur ces belles phrases, je vous souhaite une bonne visite. </p>
+			</div>
+			<a href="img/CVenzoV4.pdf" target="_blank" ><button class="button" style="vertical-align:middle"><span>CV </span></button></a>
+
+		</div>
+
+		<footer id="ancre3">
+				<div class="info">
+					<div class="logofooter"></div>
+				</div>
+				<div class="contact">
+					<h1>Me contacter</h1>
+						<div class="infocontact">
+							<p>Tél : 06.48.73.83.75 <br> Mail : enzo.janoir@hotmail.fr</p>
+						</div>
+				</div>
+
+		</footer>
+	</div>
+
+<div class="rightbar">
+
+	<div class="logor">
+
+
+
+
+
+	<a href="#"><a href="https://www.facebook.com/enzo.janoirtarello" target="_blank"><li id="lilogo" class="logo-facebook">
+		<img class="logo-facebook" src="img/logo facebook.svg" stroke="#000" fill="#000000" width="30px" height="20px" alt=""></li></a></a>
+	<a href="#"><a href="https://www.linkedin.com/in/enzo-janoir/" target="_blank"><li id="lilogo" class="logo-linkdin">
+		<img class="logo-linkdin" src="img/linkedin-logo.svg" width="30px" height="20px" alt=""></li></a></a>
+	<a href="#">  <a href="https://twitter.com/Enzo_Janoir" target="_blank"><li id="lilogo" class="logo-twitter">
+			<img class="logo-twitter" src="img/twitter-logo-silhouette.svg" width="30px" height="20px" alt=""></li></a>
+</a>
+
+</div>
+</div>
+
+<a class="js-scrollTo" href="#ancre1"><div class="logomouse"><img src="img/scroll.png" width="80px" alt=""></div></a>
+	<div class="topbar">
+		<div class="logo">
+			<a href="index.html"><h1>EJT Desktop</h1></a>
+		</div>
+		<nav>
+			<a class="js-scrollTo" href="#ancre1"><li>About me</li></a>
+			<a class="js-scrollTo" href="#ancre2"><li>Portfolio</li></a>
+			<a class="js-scrollTo" href="#ancre3"><li>Contact</li></a>
+		</nav>
+		<div class="langue">
+			<li>FR.</li>
+			<li>EN.</li>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript" src="son.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
+		});
+	</script>
+
+
+</body>
+</html>

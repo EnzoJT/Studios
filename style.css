@@ -1,0 +1,604 @@
+html, body{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	list-style: none;
+}
+audio {
+    position: relative;
+    top: 360px;
+    z-index: 2;
+    left: 820px;
+
+}
+
+
+*{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.portfolio{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #dfdfdf;
+	top: 50px;
+	margin-bottom: 50px;
+}
+
+.doc {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.titreport{
+	position: absolute;
+	margin-left: calc(50vw - 112Px);
+	margin-top: 40px;
+}
+
+.image{
+	position: relative;
+	display: inline-block;
+	width: calc(28%);
+	margin: 18px;
+	height: 29.2vh;
+	background-color: blue;
+	cursor: pointer;
+	transition: 0.8s ease;
+	border-radius: 2px;
+}
+
+#photo1{
+	background-image: url(img/11201929_565927166898766_633743147625271210_n.jpg);
+	background-size: cover;
+
+}
+#photo2{
+	background-image: url(img/28102016-IMG_2561.jpg);
+	background-size: cover;
+
+}
+#photo3{
+	background-image: url(img/cornet.jpg);
+	background-size: cover;
+
+}
+#photo4{
+	background-image: url(img/eglisemexique.jpg);
+	background-size: cover;
+
+}
+#photo5{
+	background-image: url(img/photocouv.jpg);
+	background-size: cover;
+
+}
+#photo6{
+	background-image: url(img/TAHYYYY.jpg);
+	background-size: cover;
+
+}
+
+.image:hover{
+	background-color: yellow;
+
+}
+
+.retour{
+
+}
+
+.containpage {
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    /* width: 100%; */
+    height: 750Px;
+    /* background-color: blue; */
+    /* bottom: 50px; */
+ }
+.galerie{
+	position: relative;
+	padding: 7%;
+	top: 60px;
+	margin: 0 auto;
+	/* align-content: center; */
+	width: auto;
+	/* height: 86vh; */
+}
+.contain{
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+}
+
+.demi{
+	position: relative;
+	height: 100%;
+	width: 50%;
+	background-color: #A7FBC4;
+}
+
+.grostitre{
+	position: absolute;
+	font-size: 6vw;
+	width: 430px;
+	left: calc(70%);
+	top: 19%;
+	animation: slidecont 1s ease;
+}
+.topbar{
+	top :0;
+	position: fixed;
+	/* width: 100%; */
+	left: 50px;
+	right: 50px;
+	height: 50px;
+	background-color: white;
+}
+
+
+.logo{
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	font-size:8pt;
+	/* padding-left: 20px; */
+	font-weight: bold;
+	line-height: 2;
+}
+
+nav{
+	width: 40%;
+	left: calc(50% - 20%);
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	list-style: none;
+	font-size: 12pt;
+	margin: 0 auto;
+	line-height: 3;
+
+
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 5vw;
+	height: 100%;
+}
+
+.langue{
+	font-size: 10pt;
+	font-weight: bold;
+	/* padding-right: 20px; */
+	text-align: right;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	line-height: 3;
+	float: right;
+}
+
+.langue li{
+	display: inline-block;
+	margin-left: 30px;
+	height: 100%;
+}
+.rightbar{
+	margin: 0 auto;
+	top: 50px;
+	position: fixed;
+	right: 0;
+	width: 50px;
+	height: calc(100% - 50px);
+	background-color: white;
+}
+.logor{
+	position: relative;
+	height: 207px;
+	top: calc(50% - 150.5px);
+}
+#lilogo{
+position: relative;
+margin: 0 auto;
+margin-bottom: 70px;
+padding-left: 10px;
+padding-right: 10px;/* margin: 0 auto; */
+}
+
+.logomouse{
+	position: absolute;
+	bottom: 0;
+	width: 60px;
+	margin-left: calc(50vw - 42px);
+	bottom: 33px;
+	animation: slideupmouse 1s ease infinite;
+}
+
+@keyframes slideupmouse {
+
+	0%{
+		bottom: 30px;
+	}
+
+	50%{
+		bottom: 5px;
+	}
+
+	100%{
+		bottom: 30px;
+	}
+
+}
+
+.about{
+	position: relative;
+	top: 50px;
+	padding: 80px;
+	/* width: 100%; */
+	height: 60vh;
+	border: 71px solid;
+	border-color: white;
+	/* background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%); */
+}
+
+.photo{
+	position: relative;
+	margin: 0 auto;
+	top: -40px;
+	border-radius: 200px;
+	height: 300px;
+	width: 300px;
+	background-image: url(img/LUl7VDE9.jpg);
+	background-size: cover;
+	filter: grayscale(100%);
+}
+.rond{
+	position: absolute;
+	left: calc(50% - 171px);
+	border-radius: 200px;
+	height: 340px;
+	width: 340px;
+	background-color: rgba(255, 255, 255, 0.27);
+	border: 1px solid rgba(255, 252, 252, 0.77);
+	/* background-image: url(img/LUl7VDE9.jpg); */
+	/* background-size: cover; */
+}
+
+
+.pres{
+	position: relative;
+	text-align: center;
+	bottom: 20px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+	height: 300px;
+	margin-top: 60px;
+	width: 100%;
+}
+
+.contact{
+	position: absolute;
+	text-align: right;
+	width: 50%;
+	height: 100%;
+	right: 40px;
+	position: absolute;
+	padding: 45px;
+	line-height: 3;
+	width: 28%;
+	height: 116px;
+}
+.info{
+	position: absolute;
+	padding: 92px;
+	width: 28%;
+	height: 116px;
+}
+.logofooter{
+	position: relative;
+	width: 296px;
+	height: 116px;
+	background-image: url(img/logo.png);
+	background-size: cover;
+}
+
+@keyframes slidecont {
+
+	from{
+		left: -100%;
+	}
+	to{
+		left: 54%;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+
+	.logo{
+		position: absolute;
+		width: 20%;
+		height: 100%;
+		font-size: 5pt;
+		/* padding-left: 20px; */
+		font-weight: bold;
+		line-height: 4;
+	}
+
+		nav{
+			top: -100px;
+		}
+
+
+		.langue{
+			top: -100px;
+
+		}
+
+
+		.contain{
+			position: absolute;
+			top: 50px;
+			left: 50px;
+			right: 50px;
+			bottom: 50px;
+		}
+
+		.demi{
+			position: relative;
+			height: 100%;
+			width: 50%;
+			background-color: #A7FBC4;
+		}
+
+		.grostitre{
+			position: absolute;
+			font-size: 6vw;
+			width: 430px;
+			left: calc(54%);
+			top: 19%;
+			animation: slidecont 1s ease;
+		}
+		.topbar{
+			position: fixed;
+			/* width: 100%; */
+			left: 50px;
+			right: 50px;
+			height: 50px;
+			background-color: white;
+		}
+
+
+
+
+		nav li{
+			display: inline-block;
+			margin-left: 5vw;
+			height: 100%;
+		}
+
+
+
+		.langue li{
+			display: inline-block;
+			margin-left: 30px;
+			height: 100%;
+		}
+		.rightbar{
+			margin: 0 auto;
+			top: 50px;
+			position: fixed;
+			right: 0;
+			width: 50px;
+			height: calc(100% - 50px);
+			background-color: white;
+		}
+		.logor{
+			position: relative;
+			height: 207px;
+			top: calc(50% - 150.5px);
+		}
+		#lilogo{
+		position: relative;
+		margin: 0 auto;
+		margin-bottom: 70px;
+		padding-left: 10px;
+		padding-right: 10px;/* margin: 0 auto; */
+		}
+
+		.logomouse{
+			position: absolute;
+			bottom: 0;
+			width: 60px;
+			margin-left: calc(50vw - 42px);
+			bottom: 33px;
+			animation: slideupmouse 1s ease infinite;
+		}
+
+		@keyframes slideupmouse {
+
+			0%{
+				bottom: 30px;
+			}
+
+			50%{
+				bottom: 5px;
+			}
+
+			100%{
+				bottom: 30px;
+			}
+
+		}
+
+		.about{
+			position: relative;
+			top: 50px;
+			padding: 20px;
+			/* width: 100%; */
+			height: 80vh;
+			border: 7vw solid;
+			background-color: white;
+			/* background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%); */
+		}
+
+		.photo{
+			position: relative;
+			margin: 0 auto;
+			top: 20px;
+			border-radius: 200px;
+			height: 130px;
+			width: 130px;
+			background-image: url(img/LUl7VDE9.jpg);
+			background-size: cover;
+		}
+		.rond{
+			position: absolute;
+			left: calc(50% - 71px);
+			border-radius: 200px;
+			height: 140px;
+			width: 140px;
+			background-color: rgba(255, 255, 255, 0.27);
+			border: 1px solid rgba(255, 252, 252, 0.77);
+			/* background-image: url(img/LUl7VDE9.jpg); */
+			/* background-size: cover; */
+		}
+
+
+		.pres{
+			position: relative;
+			text-align: center;
+			margin-bottom: 154px;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		footer{
+			position: relative;
+			bottom: 0;
+			height: 300px;
+			margin-top: 120px;
+			width: 100%;
+		}
+
+		.contact{
+			position: absolute;
+			text-align: center;
+			width: 50%;
+			height: 100%;
+			margin-top: 50px;
+			right: 40px;
+			position: relative;
+			padding: 0;
+			line-height: 3;
+			width: 130%;
+			height: 266px;
+		}
+		.info{
+			position: relative;
+			padding: 0px;
+			width: 100%;
+			height: 116px;
+		}
+		.logofooter{
+			position: relative;
+			width: 296px;
+			height: 116px;
+			background-image: url(img/logo.png);
+			background-size: cover;
+		}
+
+		@keyframes slidecont {
+
+			from{
+				left: -100%;
+			}
+			to{
+				left: 54%;
+			}
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7abf92;
+  left: calc(50% - 100px);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
